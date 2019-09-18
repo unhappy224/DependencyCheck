@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./lib",
+    "strict": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop":true,
+    "newLine": "LF",
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": ["node_modules", "lib"],
+  "include": ["src/**/*.ts"]
+}
